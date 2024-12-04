@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f9fafc;
+    color: #333;
+}
+
+header {
+    background-color: #004080;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    font-size: 3.5em;
+    font-weight: bold;
+    padding-top: 22px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+nav ul li {
+    margin: 0 30px;
+    padding-top: 5px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.8em;
+    transition: color 0.3s;
+
+}
+
+nav ul li a:hover {
+    color: #ffcc00;
+}
+
+/* Main Content */
+main {
+    padding: 20px;
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+section {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.3);
+}
+
+section:hover {
+    background-color: #d5f5e3;
+
+}
+
+
+section h2 {
+    color: #004080;
+    margin-bottom: 10px;
+}
+
+section p {
+    font-size: 1em;
+    color: #555;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    background-color: #004080;
+    color: white;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+.more-content {
+    display: none;
+    font-weight: bold;
+    font-family: arial, sans-serif;
+}
+
+.show-more-btn {
+    cursor: pointer;
+    text-decoration: none;
+    background-color: #58d68d;
+    outline: none;
+    padding: 3Px 5px;
+    border-radius: 5Px;
+    font-weight: bold;
+    font-family: sans-serif;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.5);
+
+}
+
+.website::before{
+    content: "\1F310"; /* Unicode for the globe symbol */
+    font-size: 25px;
+    margin-right: 5px;
+    text-decoration: none;
+}
+
+.website{
+    display: inline-flex;        /* Flexbox for vertical centering */
+    justify-content: center;     /* Horizontally centers the text */
+    align-items: center;         /* Vertically centers the text */
+    width: 120px;
+    height: 45px;
+    border: none;
+    background-color: #9b59b6  ;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 10px;
+    box-shadow: 0px 8px 5px rgba(0, 0, 0, 0.5);
+    color: white;
+}
+
+.website:hover{
+    background-color: #2980b9; /* Change background color */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5); /* Add shadow */
+    transform: scale(1.05); /* Slightly increase size */
+
+}
+
+.icon{
+    float:left;
+    height:70px;}
+}
+
+
+
+/*logo*/
+.logo div img{
+    height: 10px;
+    margin-right: 20px;
+    user-select: none;
+}
+.logo{
+    display:inline-flex;
+    flex-direction: row;
+}
+.logo h1{
+    padding-top: 22px;
+}

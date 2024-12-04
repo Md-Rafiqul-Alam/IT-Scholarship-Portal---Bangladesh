@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scholarship Portal</title>
+    <link rel="stylesheet" href="styles.css">
+
+<script>
+    function toggleMore(id) {
+        var content = document.getElementById(id);
+        var btn = content.nextElementSibling;
+
+        if (content.style.display === "none") {
+            content.style.display = "inline";
+            btn.textContent = "Show Less";
+        } else {
+            content.style.display = "none";
+            btn.textContent = "Show More";
+        }
+    }
+</script>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <div><img height="100px" style="padding-right:20px;" src="images\logo.png"></div>
+            <h1>IT Scholarship Portal - Bangladesh</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="Home.html">Home</a></li>
+                <li><a href="IT Scholarship.html">Providers</a></li>
+                <li><a href="FAQS.html">FAQs</a></li>
+                <li><a href="About.html">About</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+<section id="isdb">
+    <img class="icon" src="https://gpit.com.bd/uploads/website/IDB-2024-08-14-66bbb2dfa5ac7.png">
+    <h2>Islamic Development Bank (IsDB) Scholarships</h2>
+    <p>The IsDB provides scholarships for students in various fields, including IT. They focus on supporting students from member countries, including Bangladesh, to pursue undergraduate, master's, Ph.D., and vocational training programs.</p>
+        <span class="more-content" id="more-isdb" style="display:none;"><br>
+            <p><span style="text-decoration: underline; font-size:20px;"><strong>Citizenship</strong>:</span></p>
+            <p style="padding-left: 40px; padding-bottom: 25px; padding-top:25px;">Applicants must be citizens of <strong>Bangladesh</strong> or any other IsDB member country.</p>
+            <p><span style="text-decoration: underline; font-size:20px;"><strong>Field of Study</strong>:</span></p>
+            <p style="padding-left: 40px; padding-top:25px;">The scholarship supports studies in <strong>information technology (IT)</strong>, <strong>computer science</strong>, <strong>software engineering</strong>, and related fields in technology, science, and engineering.</p>
+            <p style="padding-left: 40px; padding-bottom: 25px;">Other priority fields include agriculture, medicine, pharmacy, economics, and development studies, but IT is a core focus for those looking to develop technical skills.</p>
+            <p><span style="text-decoration: underline; font-size:20px;"><strong>Educational Qualification</strong>:</span></p>
+            <p style="padding-left: 40px; padding-top:25px;">For <strong>Undergraduate Programs</strong>:</p>
+            <p style="padding-left: 40px;">Applicants should have completed <strong>Higher Secondary Certificate (HSC)</strong> or equivalent, with excellent academic records (generally a minimum GPA of 4.5 out of 5).</p>
+            <p style="padding-left: 40px;">For <strong>Master&rsquo;s or PhD Programs</strong>:</p>
+            <p style="padding-left: 40px;">Applicants must have completed a relevant <strong>Bachelor&rsquo;s degree</strong> (for Master&rsquo;s) or <strong>Master&rsquo;s degree</strong> (for PhD) in IT-related fields with a strong academic record.</p>
+            <p style="padding-left: 40px; padding-bottom: 25px;">The scholarship also covers <strong>post-doctoral research</strong> in IT and technology fields.</p>
+            <p><span style="text-decoration: underline; font-size:20px;"><strong>Age Limits</strong>:</span></p>
+            <p style="padding-left: 40px; padding-top:25px;">For Undergraduate: Applicants must be between <strong>18 and 24 years old</strong>.</p>
+            <p style="padding-left: 40px;">For Master&rsquo;s: Applicants must be under <strong>35 years old</strong>.</p>
+            <p style="padding-left: 40px;">For PhD: Applicants must be under <strong>40 years old</strong>.</p>
+            <p style="padding-left: 40px; padding-bottom: 25px;">For Post-doctoral research: Applicants must be <strong>below 45 years</strong>.</p>
+            <p><span style="text-decoration: underline; font-size:20px;"><strong>Academic Performance</strong>:</span></p>
+            <p style="padding-left: 40px; padding-top:25px;">Applicants must demonstrate <strong>strong academic performance</strong>, especially in mathematics, science, and technology subjects.</p>
+            <p style="padding-left: 40px; padding-bottom: 25px;">A minimum GPA requirement is often expected for both secondary and higher education levels (typically a GPA of 3.5 or higher on a 4.0 scale for Master&rsquo;s/PhD candidates).</p>
+            <p><span style="text-decoration: underline; font-size:20px;"><strong>Financial Need</strong>:</span></p>
+            <p style="padding-left: 40px; padding-bottom: 25px; padding-top:25px;">The IsDB Scholarship is designed to support students from <strong>financially disadvantaged backgrounds</strong>. Applicants must demonstrate financial need and an inability to pursue higher education without the scholarship.</p>
+            <p><span style="text-decoration: underline; font-size:20px;"><strong>Commitment to Development</strong>:</span></p>
+            <p style="padding-left: 40px; padding-bottom: 25px; padding-top:25px;">The scholarship prioritizes applicants who demonstrate a commitment to the socio-economic development of Bangladesh and are willing to return to their home country after completing their studies to contribute to national development.</p>
+            <p><span style="text-decoration: underline; font-size:20px;"><strong>Personal Development and Leadership Skills</strong>:</span></p>
+            <p style="padding-left: 40px; padding-bottom: 25px; padding-top:25px;">Candidates with demonstrated leadership abilities, community involvement, and a proactive approach to solving social or technological issues are often given preference.</p><br>
+            <a href="https://www.isdb-bisew.org/it-scholarship-programme" target="_blank"><button class="website">Website</button></a><br><br>
+        </span>
+    <span class="show-more-btn" onclick="toggleMore('more-isdb')">Show More</span>
+</section>
+
+
+
+<section id="ict-division" style="font-family: Arial, sans-serif;">
+    <img class="icon" style="width: 90px;" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFtU8VMfyn8KhFb7vo5ef-JCDP5RnRNEk2AA&s">
+    <h2>ICT Division, Government of Bangladesh</h2>
+    <p><strong> The ICT Division offers various scholarships and training programs to students pursuing IT-related degrees.</strong></p><br>
+    <div class="more-content" id="more-ict" style="display:none;">
+        <p><span style="text-decoration: underline; font-size:20px;"><strong>Eligibility Criteria :</strong></span></p>
+        <p style="padding-left: 40px; padding-bottom: 25px; padding-top:25px;">The applicant must be a citizen of Bangladesh.</p>
+        <p><span style="text-decoration: underline; font-size:20px"><strong>Academic Qualifications :</strong></span></p>
+        <p style="padding-left: 40px;padding-bottom: 25px; padding-top:25px;">The applicant should be a student of a recognized educational institution in Bangladesh.Generally, applicants should be pursuing or willing to pursue studies in ICT-related fields, such as computer science, software engineering, information technology, etc. A minimum academic performance, often around a CGPA of 3.00 (on a 4.00 scale) or equivalent marks, is typically required. However, this may vary based on the specific scholarship.</p>
+        <p><span style="text-decoration: underline; font-size:20px"><strong>Age Limit:</strong></span></p>
+        <p style="padding-left: 40px;padding-bottom: 25px; padding-top:25px;">Some scholarships may have an upper age limit, typically around 18-30 years for most programs, but this can vary depending on the specific scheme.</p>
+        <p><span style="text-decoration: underline; font-size:20px"><strong>Financial Need :</strong></span></p>
+        <p style="padding-left: 40px; padding-top:25px;" >Some scholarships prioritize students from financially disadvantaged backgrounds.</p>
+        <p style="padding-left: 40px;padding-bottom: 25px;">Proof of financial hardship, such as family income statements, might be required.</p>
+        <p><span style="text-decoration: underline; font-size:20px"><strong>Gender Inclusivity:</strong></span></p>
+        <p style="padding-left: 40px;padding-bottom: 25px; padding-top:25px;">Special provisions or additional points may be given to female students to promote gender balance in ICT fields.</p>
+        <p><span style="text-decoration: underline; font-size:20px"><strong>Other Requirements :</strong></span></p>
+        <p style="padding-left: 40px; padding-top:25px;" >Participation in specific national or government initiatives related to ICT, like coding competitions or innovation programs, may be considered an advantage. Applicants may need to be involved in ICT-related projects or training programs.</p>        
+        <br>
+        
+
+<a href="https://ictd.gov.bd/" target="_blank"><button class="website">Website</button></a><br><br>
+    </div>
+    <span class="show-more-btn" onclick="toggleMore('more-ict', this)">Show More</span>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <section id="bcc">
+            <img class="icon" style="padding-right:22px;" src="https://vectorseek.com/wp-content/uploads/2023/08/Bangladesh-Computer-Council-BCC-Logo-Vector.svg-.png">
+            <h2>Bangladesh Computer Council (BCC)</h2>
+            <p>BCC provides IT-related training and scholarships through programs like SEIP for skill development.</p>
+
+            <div class="more-content" id="more-bcc" style="display:none;"><br>
+                <p><span style="text-decoration: underline; font-size:20px;"><strong>Citizenship</strong>:</span></p>
+                <p style="padding-left: 40px; padding-bottom: 25px; padding-top:25px;">Applicants must be citizens of Bangladesh.</p>
+                <p><span style="text-decoration: underline; font-size:20px;"><strong>Education Level</strong>:</span></p>
+                <p style="padding-left: 40px; padding-top:25px;">For most scholarships, applicants are expected to have completed at least a secondary or higher secondary education (SSC or HSC).</p>
+                <p style="padding-left: 40px; padding-bottom: 25px;">Some scholarships are targeted at undergraduate or graduate-level students in IT-related fields.</p>
+                <p><span style="text-decoration: underline; font-size:20px;"><strong>Field of Study</strong>:</span></p>
+                <p style="padding-left: 40px; padding-bottom: 25px; padding-top:25px;">The applicant should be studying or planning to study in IT or a related field (such as computer science, software engineering, information systems, etc.).</p>
+                <p><span style="text-decoration: underline; font-size:20px;"><strong>Age Limit</strong>: </span></p>
+                <p style="padding-left: 40px; padding-bottom: 25px; padding-top:25px;">There may be an age limit for certain scholarships, typically under 30 or 35 years old.</p>
+                <p><span style="text-decoration: underline; font-size:20px; padding-bottom: 25px; padding-top:25px;"><strong>Academic Performance</strong>:</span></p>
+                <p style="padding-left: 40px; padding-top:25px;">A good academic record is often required. This might mean having a minimum GPA in previous examinations.</p>
+                <p style="padding-left: 40px; padding-bottom: 25px;">Scholarships may also require strong performance in specific subjects like mathematics and science.</p>
+                <p><span style="text-decoration: underline; font-size:20px;"><strong>Skill Level</strong>:</span></p>
+                <p style="padding-left: 40px; padding-bottom: 25px; padding-top:25px;">For more advanced or technical scholarships, some prior knowledge or experience in IT or programming languages may be required.</p>
+                <p><span style="text-decoration: underline; font-size:20px;"><strong>Financial Need</strong>:</span></p>
+                <p style="padding-left: 40px; padding-bottom: 25px; padding-top:25px;">Some scholarships may prioritize students from low-income families or underprivileged backgrounds.</p>
+                <p><span style="text-decoration: underline; font-size:20px;"><strong>Examinations/Interviews</strong>:</span></p>
+                <p style="padding-left: 40px; padding-bottom: 25px; padding-top:25px;">In some cases, applicants may have to pass an entrance exam or interview to demonstrate their qualifications.</p>
+                <p style="text-align: left;"><span style="text-decoration: underline; font-size:20px;"><strong>Other Requirements</strong>:</span></p>
+                <p style="padding-left: 40px; padding-bottom: 25px; padding-top:25px;">Depending on the type of scholarship, specific skill certifications (like IT certifications) or relevant work experience may be needed.</p>
+
+                <a href="https://bcc.gov.bd/" target="_blank"><button class="website">Website</button></a><br><br>
+            </div>
+            <span class="show-more-btn" onclick="toggleMore('more-bcc', this)">Show More</span>
+
+        </section>
+
+
+
+
+
+
+
+
+
+
+
+
+        <section id="bdjobs">
+            <img class="icon" style="width: 95Px;"src="images\bdjobs.png">
+            <h2>Bdjobs IT Scholarships</h2>
+            <p>Bdjobs offers scholarships for IT courses, focusing on skill development through their training portal.</p>
+
+
+            <div class="more-content" id="more-bdjob" style="display:none;">
+
+
+                <p><span style="text-decoration: underline; font-size:20px;"><strong>Citizenship</strong></span>:</p>
+                <p style="padding-left: 40px; padding-bottom: 25px; padding-top:25px;">Applicants must be citizens of Bangladesh.</p>
+                <p><span style="text-decoration: underline; font-size:20px;"><strong>Educational Qualification</strong>:</span></p>
+                <p style="padding-left: 40px;  padding-top:25px;">Applicants typically need to have at least completed <strong>Higher Secondary Certificate (HSC)</strong> or equivalent.</p>
+                <p style="padding-left: 40px; padding-bottom: 25px;">For certain advanced courses, undergraduate or graduate-level students in IT or related fields may be preferred.</p>
+                <p><span style="text-decoration: underline; font-size:20px;"><strong>Interest in IT</strong>:</span></p>
+                <p style="padding-left: 40px;  padding-top:25px;">Applicants should have a strong interest in learning IT skills or pursuing a career in IT.</p>
+                <p style="padding-left: 40px; padding-bottom: 25px;">Some basic knowledge in computers or programming may be required depending on the type of course or scholarship.</p>
+                <p><span style="text-decoration: underline; font-size:20px;"><strong>Age Limit</strong>:</span></p>
+                <p style="padding-left: 40px; padding-bottom: 25px; padding-top:25px;">There may be an age limit for certain programs, generally targeting young professionals or students in the early stages of their careers (under 30-35 years old).</p>
+                <p><span style="text-decoration: underline; font-size:20px;"><strong>Academic Performance</strong>:</span></p>
+                <p style="padding-left: 40px; padding-bottom: 25px; padding-top:25px;">A strong academic background is often considered, but the main focus is usually on the applicant&rsquo;s passion and potential in IT.</p>
+                <p><span style="text-decoration: underline; font-size:20px;"><strong>Financial Need</strong>:</span></p>
+                <p style="padding-left: 40px; padding-bottom: 25px; padding-top:25px;">Scholarships may give preference to candidates from financially disadvantaged backgrounds, helping those who may not have the resources to pay for IT courses otherwise.</p>
+                <p><span style="text-decoration: underline; font-size:20px;"><strong>Skill Level</strong>:</span></p>
+                <p style="padding-left: 40px; padding-top:25px;">Depending on the scholarship program, basic computer literacy or familiarity with software may be required.</p>
+                <p style="padding-left: 40px; padding-bottom: 25px;">For more advanced IT courses (e.g., coding, networking, etc.), applicants may need prior knowledge or experience.</p>
+                <p><span style="text-decoration: underline;font-size:20px;"><strong>Examinations/Interviews</strong>:</span></p>
+                <p style="padding-left: 40px; padding-bottom: 25px; padding-top:25px;">Some scholarships might require applicants to sit for a selection test or an interview to assess their aptitude or motivation for the course.</p>
+                <p><span style="text-decoration: underline; font-size:20px;"><strong>Commitment to Career Development</strong>:</span></p>
+                <p style="padding-left: 40px; padding-bottom: 25px; padding-top:25px;">Applicants must show a genuine interest in developing their IT skills for future employment or entrepreneurial ventures in the field of technology.</p>
+
+
+
+
+                <a href="https://bdjobs.com/career/training/itt_list.asp" target="_blank"><button class="website">Website</button></a><br><br>
+            </div>
+            <span class="show-more-btn" onclick="toggleMore('more-bdjob', this)">Show More</span>
+        </section>
+
+
+
+
+
+        <section id="robi">
+            <img class="icon" style="width: 90Px; padding-right:10px;"src="https://seeklogo.com/images/R/robi-logo-263EE1D4A2-seeklogo.com.png">
+            <h2>Robi Axiata</h2>
+            <p>Robi provides scholarships for IT students as part of their CSR initiatives, supporting education in tech fields.</p>
+
+            <div class="more-content" id="more-robi" style="display:none;">
+
+
+                <p><span style="text-decoration: underline; font-size:20px;"><strong>Citizenship</strong>:</span></p>
+                <p style="padding-left: 40px; padding-bottom: 25px; padding-top:25px;">Applicants must be citizens of Bangladesh.</p>
+                <p><span style="text-decoration: underline; font-size:20px;"><strong>Educational Qualification</strong>:</span></p>
+                <p style="padding-left: 40px; padding-top:25px;">Typically aimed at undergraduate or graduate-level students.</p>
+                <p style="padding-left: 40px; padding-bottom: 25px;">Applicants should be pursuing a degree in <strong>IT-related fields</strong> such as Computer Science, Software Engineering, Information Technology, or a similar discipline.</p>
+                <p><span style="text-decoration: underline; font-size:20px;"><strong>Academic Performance</strong>:</span></p>
+                <p style="padding-left: 40px; padding-top:25px;">Applicants need to have a strong academic background.</p>
+                <p style="padding-left: 40px; padding-bottom: 25px;">A minimum GPA requirement (often 3.0 or higher on a 4.0 scale) in their previous examinations (SSC, HSC, or University exams) is common.</p>
+                <p><span style="text-decoration: underline; font-size:20px;"><strong>Age Limit</strong>:</span></p>
+                <p style="padding-left: 40px; padding-bottom: 25px; padding-top:25px;">Generally aimed at young students, so applicants are often required to be below a certain age, typically under 30 years old.</p>
+                <p><span style="text-decoration: underline; font-size:20px;"><strong>Skills and Competence</strong>:</span></p>
+                <p style="padding-left: 40px; padding-top:25px;">A demonstrated interest in IT, technology, coding, or digital innovation.</p>
+                <p style="padding-left: 40px; padding-bottom: 25px;">Previous knowledge or certifications in programming languages, networking, or IT infrastructure may be beneficial but not mandatory.</p>
+                <p><span style="text-decoration: underline; font-size:20px;"><strong>Financial Need</strong>:</span></p>
+                <p style="padding-left: 40px; padding-bottom: 25px; padding-top:25px;">Some scholarships might consider applicants from economically disadvantaged backgrounds to prioritize those who may not have the financial means to support their education.</p>
+                <p><span style="text-decoration: underline; font-size:20px;"><strong>Involvement in Extracurricular Activities</strong>:</span></p>
+                <p style="padding-left: 40px; padding-bottom: 25px; padding-top:25px;">Active participation in extracurricular activities, particularly those related to technology, coding competitions, or hackathons, could be an added advantage.</p>
+                <p><span style="text-decoration: underline; font-size:20px;"><strong>Innovation and Creativity</strong>:</p>
+                <p style="padding-left: 40px; padding-bottom: 25px; padding-top:25px;">Some scholarship programs under Robi Axiata might prioritize applicants who demonstrate innovative ideas in technology or have participated in projects that showcase their IT or digital skills.</p>
+                <p><span style="text-decoration: underline; font-size:20px;"><strong>Community Impact</strong>:</p>
+                <p style="padding-left: 40px; padding-bottom: 25px; padding-top:25px;">Applicants who demonstrate leadership, social responsibility, or have contributed to their communities through IT projects or initiatives may be given preference.</p>
+
+
+
+
+                <a href="https://ictd.gov.bd/" target="_blank"><button class="website">Website</button></a><br><br>
+            </div>
+            <span class="show-more-btn" onclick="toggleMore('more-robi', this)">Show More</span>
+        </section>
+
+
+
+
+        <section id="gp">
+            <img class="icon" style="width: 90px;"  src="images\grameen.png">
+            <h2>Grameenshikkha IT Scholarships</h2>
+            <p>Grameenphone offers scholarships for IT students, empowering youth to excel in technology.</p>
+
+            <div class="more-content" id="more-gp" style="display:none;"><br>
+
+                <p style="font-size:20px; text-decoration: underline;">&nbsp;<strong>Who are given scholarship?</strong></p>
+                <ol style="padding-left: 60px; padding-bottom: 25px; padding-top:25px;">
+                <li>&nbsp;Only poor meritorious girls and boys receive GS scholarships.</li>
+                <li>&nbsp;More than half of GS scholars, around 58%, are girls.</li>
+                <li>&nbsp;More than 98% of the scholars live in rural areas.</li>
+                </ol><br>
+
+
+
+                <a href="https://www.grameenshikkha.com/pages/details/7/scholarship-management-program" target="_blank"><button class="website">Website</button></a><br><br>
+            </div>
+            <span class="show-more-btn" onclick="toggleMore('more-gp', this)">Show More</span>
+        </section>
+
+
+
+
+
+        <section id="brac">
+            <img class="icon" style="padding-right: 20px;" src="https://freelogopng.com/images/all_img/1679820004brac-icon.png">
+            <h2>BRAC</h2>
+            <p>BRAC offers scholarships and supports IT education through partnerships with various tech organizations.</p><br>
+            <div class="more-content" id="more-brac" style="display:none;">
+                <p><span style="text-decoration: underline; font-size:20px;"><strong>Academic Requirements</strong>:</span></p>
+                <p style="padding-left: 40px; padding-top:25px;">For undergraduate program<strong>s</strong> (like Computer Science and Engineering), applicants must have a high school diploma or equivalent.</p>
+                <p style="padding-left: 40px;">For postgraduate programs (like M.Sc./M.Engg. in Computer Science and Engineering), applicants need a relevant bachelor's degree.</p>
+                <p style="padding-left: 40px; padding-bottom: 25px;">Applicants must maintain a minimum CGPA of 3.25 on a scale of 4 throughout their academic career to retain the scholarship​</p>
+                <p><span style="text-decoration: underline; font-size:20px;"><strong>Merit and Financial Need</strong>:</span></p>
+                <p style="padding-left: 40px; padding-bottom: 25px; padding-top:25px;">Scholarships are generally awarded based on merit and, in some cases, financial need, particularly for students from underprivileged backgrounds​</p>
+                <p><span style="text-decoration: underline; font-size:20px;"><strong>Additional Requirements</strong>:</span></p>
+                <p style="padding-left: 40px; padding-top:25px;">For international students, a valid passport and English proficiency may be required​</p>
+                <p style="padding-left: 40px; padding-bottom: 25px;">Documents lik.e transcripts, CV, and a motivation letter are part of the application process.</p>
+                <a href="https://www.bracu.ac.bd/admissions/undergraduate" target="_blank"><button class="website">Website</button></a><br><br>
+            </div>
+            <span class="show-more-btn" onclick="toggleMore('more-brac', this)">Show More</span>
+        </section>
+
+
+
+
+
+
+
+
+
+
+
+        <section id="basis">
+            <img class="icon" style="width: 90px;" src="https://basis.org.bd/public/img/news/5dff5369c15edNews%206.jpg">
+            <h2>BASIS IT Scholarships</h2>
+            <p>BASIS provides training and scholarship opportunities for students interested in IT services through BITM.</p>
+
+
+            <div class="more-content" id="more-basis" style="display:none;"
+
+
+
+                <a href="https://ictd.gov.bd/" target="_blank"><button class="website">Website</button></a><br><br>
+            </div>
+            <span class="show-more-btn" onclick="toggleMore('more-basis', this)">Show More</span>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2024 IT Scholarship Portal | Designed by Md. Rafiqul Alam</p>
+    </footer>
+
+
+
+
+</body>
+</html>

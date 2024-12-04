@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scholarship Portal - FAQs</title>
+    <style>
+        /* General Styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Roboto', sans-serif;
+        }
+
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: #f9fafc;
+            color: #333;
+        }
+
+        header {
+            background-color: #004080;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        header h1 {
+            font-size: 3.5em;
+            font-weight: bold;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            margin-top: 10px;
+        }
+
+        nav ul li {
+            margin: 0 30px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 1.8em;
+            transition: color 0.3s;
+        }
+
+        nav ul li a:hover {
+            color: #ffcc00;
+        }
+
+
+        /* FAQ Styles */
+        .faq-container {
+            max-width: 800px;
+            margin: 40px auto;
+            padding: 20px;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .faq-item {
+            background-color: #f4f4f4;
+            margin-bottom: 10px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+        }
+
+        .faq-question {
+            display: flex;
+            justify-content: space-between;
+            padding: 15px;
+            background-color: #d8d8d8;
+            cursor: pointer;
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+        .faq-answer {
+            display: none;
+            padding: 15px;
+            background-color: #f1f1f1;
+        }
+
+        .faq-question.active + .faq-answer {
+            display: block;
+        }
+
+        .toggle-icon {
+            font-size: 24px;
+        }
+
+        .faq-question.active .toggle-icon {
+            transform: rotate(45deg);
+        }
+
+        /* Footer Styles */
+        footer {
+            background-color: #004080;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            margin-top: 40px;
+        }
+
+        footer p {
+            margin: 10px 0;
+        }
+
+        footer a {
+            color: #ffcc00;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+        /*logo*/
+        .logo div img{
+            height: 100px;
+            margin-right: 20px;
+            user-select: none;
+        }
+        .logo{
+            display:inline-flex;
+            flex-direction: row;
+        }
+        .logo h1{
+            padding-top: 22px;
+        }
+
+    </style>
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <div class="logo">
+            <div><img src="images\logo.png"></div>
+            <h1>IT Scholarship Portal - Bangladesh</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="Home.html">Home</a></li>
+                <li><a href="IT Scholarship.html">Providers</a></li>
+                <li><a href="FAQS.html">FAQs</a></li>
+                <li><a href="About.html">About</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main FAQ Content -->
+    <div class="faq-container">
+        <div class="faq-item">
+            <div class="faq-question active">
+                <span>What is a scholarship?</span>
+                <span class="toggle-icon">−</span>
+            </div>
+            <div class="faq-answer">
+                <p>A scholarship is a financial award for a student to further their education and is not required to be repaid.These scholarships are intended to be added to other financial supports you receive.</p>
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <div class="faq-question">
+                <span>I don’t even know how to start looking for scholarships. Where do I start?</span>
+                <span class="toggle-icon">+</span>
+            </div>
+            <div class="faq-answer">
+                <p>You can begin by visiting scholarship portals, reaching out to educational institutions, or consulting with a scholarship advisor to help find options that fit your qualifications.</p>
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <div class="faq-question">
+                <span>How many scholarships can I apply for?</span>
+                <span class="toggle-icon">+</span>
+            </div>
+            <div class="faq-answer">
+                <p>There’s no limit to how many scholarships you can apply for. It’s often recommended to apply for as many as you qualify for to increase your chances of receiving financial aid.</p>
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <div class="faq-question">
+                <span>How do I receive my scholarship funds?</span>
+                <span class="toggle-icon">+</span>
+            </div>
+            <div class="faq-answer">
+                <p>Scholarship funds are typically disbursed directly to your school to cover tuition and fees. In some cases, you may receive a check or electronic transfer for other expenses.</p>
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <div class="faq-question">
+                <span>Do I have to fill out a FAFSA to get a scholarship?</span>
+                <span class="toggle-icon">+</span>
+            </div>
+            <div class="faq-answer">
+                <p>FAFSA is required for some scholarships, especially those offered by government programs or institutions that take financial need into consideration. However, not all scholarships require it.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 IT Scholarship Portal. All Rights Reserved.</p>
+        <p><a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a></p>
+    </footer>
+
+    <script>
+        document.querySelectorAll('.faq-question').forEach((item) => {
+            item.addEventListener('click', () => {
+                const activeItems = document.querySelectorAll('.faq-question.active');
+
+                activeItems.forEach((activeItem) => {
+                    if (activeItem !== item) {
+                        activeItem.classList.remove('active');
+                        activeItem.nextElementSibling.style.display = 'none';
+                        activeItem.querySelector('.toggle-icon').textContent = '+';
+                    }
+                });
+
+                const answer = item.nextElementSibling;
+                if (item.classList.contains('active')) {
+                    item.classList.remove('active');
+                    answer.style.display = 'none';
+                    item.querySelector('.toggle-icon').textContent = '+';
+                } else {
+                    item.classList.add('active');
+                    answer.style.display = 'block';
+                    item.querySelector('.toggle-icon').textContent = '−';
+                }
+            });
+        });
+    </script>
+
+</body>
+</html>
